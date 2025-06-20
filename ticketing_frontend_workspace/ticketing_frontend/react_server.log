@@ -23,3 +23,168 @@ modules by path ./.ve/ 15.1 KiB
     ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
 webpack 5.99.9 compiled successfully in 1237 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.54 MiB
+  asset bundle.js 1.46 MiB [emitted] (name: main)
+  asset main.38c94da8512be9440a44.hot-update.js 78 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.38c94da8512be9440a44.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.54 MiB = bundle.js 1.46 MiB main.38c94da8512be9440a44.hot-update.js 78 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 40.1 KiB
+  modules by path ./src/pages/*.js 16.1 KiB 6 modules
+  modules by path ./src/components/*.js 15.6 KiB
+    ./src/components/Header.js 2.67 KiB [built] [code generated]
+    + 4 modules
+  modules by path ./src/*.js 3.82 KiB
+    ./src/App.js 473 bytes [built] [code generated]
+    + 2 modules
+  modules by path ./src/api/*.js 2.62 KiB
+    ./src/api/tickets.js 682 bytes [built] [code generated]
+    + 2 modules
+  ./src/context/AuthContext.js 2 KiB [built] [code generated]
+
+ERROR in ./src/AppRouter.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Header.js 2:0-53
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/components'
+ @ ./src/AppRouter.js 3:0-41 20:33-39
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/TicketList.js 3:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/components'
+ @ ./src/pages/TicketsPage.js 3:0-50 58:28-38
+ @ ./src/AppRouter.js 4:0-46 26:35-46
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/LoginPage.js 4:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/pages'
+ @ ./src/AppRouter.js 7:0-42 47:43-52
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/RegisterPage.js 4:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/pages'
+ @ ./src/AppRouter.js 8:0-48 56:43-55
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/TicketCreatePage.js 3:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/pages'
+ @ ./src/AppRouter.js 6:0-56 32:42-58
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/TicketDetailPage.js 3:0-64
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/pages'
+ @ ./src/AppRouter.js 5:0-56 41:35-51
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+7 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 7 errors in 360 ms
+assets by status 1.47 MiB [cached] 2 assets
+cached modules 1.3 MiB (javascript) 27.5 KiB (runtime) [cached] 73 modules
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/node_modules/react-router-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/AppRouter.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Header.js 2:0-53
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/components'
+ @ ./src/AppRouter.js 3:0-41 20:33-39
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/TicketList.js 3:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/components'
+ @ ./src/pages/TicketsPage.js 3:0-50 58:28-38
+ @ ./src/AppRouter.js 4:0-46 26:35-46
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/LoginPage.js 4:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/pages'
+ @ ./src/AppRouter.js 7:0-42 47:43-52
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/RegisterPage.js 4:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/pages'
+ @ ./src/AppRouter.js 8:0-48 56:43-55
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/TicketCreatePage.js 3:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/pages'
+ @ ./src/AppRouter.js 6:0-56 32:42-58
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/TicketDetailPage.js 3:0-64
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/reactfastticket-54891-1e5255ab/ticketing_frontend_workspace/ticketing_frontend/src/pages'
+ @ ./src/AppRouter.js 5:0-56 41:35-51
+ @ ./src/App.js 4:0-36 12:32-41
+ @ ./src/index.js 5:0-24 11:32-35
+
+7 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 7 errors in 39 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 2.17 MiB
+  asset bundle.js 1.8 MiB [emitted] (name: main)
+  asset main.70fca181d02abfee55a2.hot-update.js 386 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.70fca181d02abfee55a2.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 2.17 MiB = bundle.js 1.8 MiB main.70fca181d02abfee55a2.hot-update.js 386 KiB
+cached modules 1.28 MiB [cached] 52 modules
+runtime modules 28.7 KiB 15 modules
+javascript modules 330 KiB
+  modules by path ./src/ 22.6 KiB
+    modules by path ./src/pages/*.js 13.2 KiB
+      ./src/pages/TicketDetailPage.js 5.05 KiB [code generated]
+      + 3 modules
+    modules by path ./src/components/*.js 6.36 KiB
+      ./src/components/Header.js 2.67 KiB [code generated]
+      ./src/components/TicketList.js 3.69 KiB [code generated]
+    ./src/AppRouter.js 3 KiB [code generated]
+  built modules 307 KiB [built]
+    ./node_modules/react-router-dom/dist/index.js 55.4 KiB [built] [code generated]
+    ./node_modules/react-router/dist/index.js 59.3 KiB [built] [code generated]
+    ./node_modules/@remix-run/router/dist/router.js 193 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 197 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by path *.js 1.8 MiB
+  asset bundle.js 1.8 MiB [emitted] (name: main)
+  asset main.637a198c9cff2136150e.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 1.98 KiB [emitted]
+asset main.637a198c9cff2136150e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.8 MiB = bundle.js 1.8 MiB main.637a198c9cff2136150e.hot-update.js 854 bytes
+cached modules 1.55 MiB [cached] 40 modules
+runtime modules 28.7 KiB 15 modules
+javascript modules 52.9 KiB
+  modules by path ./src/ 40.7 KiB
+    modules by path ./src/pages/*.js 16.1 KiB 6 modules
+    modules by path ./src/components/*.js 15.6 KiB 5 modules
+    modules by path ./src/*.js 4.34 KiB 4 modules
+    modules by path ./src/api/*.js 2.62 KiB
+      ./src/api/tickets.js 682 bytes [built]
+      + 2 modules
+    ./src/context/AuthContext.js 2 KiB [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+webpack 5.99.9 compiled successfully in 310 ms
